@@ -33,6 +33,31 @@ header h3 {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #3f2730;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+li {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
 .locations {
   background-color: #ead9d6;
 }
@@ -60,23 +85,44 @@ header h3 {
   border-radius: 5px;
 }
 
-h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  font-weight: 800;
-  text-align: center;
-  margin: 0;
-  padding: 20px 0;
+.itinerary {
+  background-color: #c99c96;
 }
 
-h4 {
-  font-family: "Poppins", sans-serif;
-  font-size: 24px;
+.travel-days {
+  display: flex;
+
+  border: 1px solid #784e6d;
+  border-radius: 8px;
+  background-color: #bea5ae;
+  box-shadow: 8px 10px 5px -5px rgba(120, 78, 109, 0.8);
+  margin: 10px 8px;
 }
 
-.activity-row p {
-  font-size: 16px;
-  font-family: "Courier New", Courier, monospace;
+.travel-details {
+  padding: 5px 15px;
+}
+
+.travel-details p {
+  font-size: 20px;
+}
+
+.maps {
+  width: 80%;
+  padding: 5px;
+}
+
+.maps:hover {
+  opacity: 0.7;
+}
+
+.city-name {
+  font-weight: 900;
+}
+
+.highlights {
+  font-weight: 900;
+  font-size: 20px;
 }
 
 footer {
