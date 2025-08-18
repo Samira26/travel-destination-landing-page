@@ -1,0 +1,63 @@
+.container {
+  max-width: 1400px;
+  margin: 0px auto;
+  font-family: "Be Vientnam Pro", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/Images/Kyoto.jpg");
+  background-size: cover;
+  padding: 350px 0px;
+}
+
+header h1 {
+  margin: 30px 0;
+  line-height: 1;
+  font-size: 96px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+header h3 {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.activities {
+  display: flex;
+}
+
+.activity-row img {
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/Images/Kyoto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 0;
+}
+
+footer p {
+  font-size: 24px;
+  font-family: ;
+  text-align: center;
+  color: white;
+}
